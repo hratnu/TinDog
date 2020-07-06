@@ -1,0 +1,163 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+}
+
+/* headings */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/*containers*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+
+/* navbar-brand */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  size: 1.8rem;
+  font-weight: 300;
+}
+
+/* title */
+#title {
+  text-align: left;
+  postion: relative;
+  z-index: 1;
+  background-color: #ff4c68;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* feaures */
+#features {
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-icon {
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
+
+/* testimonials-section */
+#testimonials {
+  color: #fff;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 50px 20px 50px;
+}
+
+/* Price */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-item {
+  padding: 3% 2%;
+}
+
+.price-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* footer */
+#footer {}
+
+.social-icon {
+  margin: 10px 10px;
+}
+
+/* Media */
+@media (max-width:1028px) {
+  #title {}
+
+  .iphone {
+    transform: rotate(360deg);
+    width: 60%;
+    position: static;
+    right: 30%;
+  }
+}
